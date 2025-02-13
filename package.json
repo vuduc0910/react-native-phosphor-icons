@@ -1,0 +1,68 @@
+{
+  "name": "@vuduc0801/react-native-phosphor-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/commonjs/index.js",
+  "module": "dist/module/index.js",
+  "react-native": "src/index.ts",
+  "types": "dist/typescript/index.d.ts",
+  "source": "src/index.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "generate": "esno scripts/generate-svg.ts",
+    "build": "bob build",
+    "lint": "biome lint",
+    "lint:fix": "biome lint --fix",
+    "format": "biome format --write"
+  },
+  "keywords": [
+    "react-native",
+    "phosphor-icons",
+    "ui"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@phosphor-icons/core": "^2.1.1",
+    "@svgr/babel-plugin-add-jsx-attribute": "^8.0.0",
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-svgo": "^8.1.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/react": "~18.2.45",
+    "@types/react-native": "^0.73.0",
+    "change-case": "^5.4.4",
+    "esno": "^4.7.0",
+    "fs-extra": "^11.2.0",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-builder-bob": "^0.23.2",
+    "react-native-svg": "^15.2.0"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "dist",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  },
+  "dependencies": {
+    "@biomejs/biome": "1.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuduc0910/react-native-phosphor-icons.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/vuduc0910/react-native-phosphor-icons/issues"
+  },
+  "homepage": "https://github.com/vuduc0910/react-native-phosphor-icons#readme"
+}

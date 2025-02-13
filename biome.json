@@ -1,0 +1,18 @@
+{
+  "extends": ["../../biome.json"],
+  "files": {
+    "ignore": ["src/**/*", "dist/**/*"]
+  },
+  "overrides": [
+    {
+      "include": ["scripts/generate-svg.ts"],
+      "linter": {
+        "rules": {
+          "suspicious": {
+            "noConsoleLog": "off"
+          }
+        }
+      }
+    }
+  ]
+}
