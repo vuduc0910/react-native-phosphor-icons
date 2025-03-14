@@ -1,6 +1,6 @@
 {
   "name": "@vuduc0801/react-native-phosphor-icons",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/commonjs/index.js",
   "module": "dist/module/index.js",
