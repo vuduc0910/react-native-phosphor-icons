@@ -1,4 +1,4 @@
-# @fan-plus/icons
+# @vuduc0801/react-native-phosphor-icons
 
 Since [Phosphor](https://phosphoricons.com/) does not support React Native, we have to convert all the SVGs to React Native SVGs.
 
